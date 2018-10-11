@@ -11,5 +11,8 @@ class Author
     @posts
   end
   
+  def add_post(post)
+    post.author = this
+  end
   
 end #CLSEND
