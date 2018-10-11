@@ -18,7 +18,7 @@ def self.all
 end
 
 def self.post_count
-  Post.all.count
+  @@all.count
 end
 
 def author_name
