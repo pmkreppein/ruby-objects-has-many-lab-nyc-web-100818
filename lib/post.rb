@@ -20,4 +20,8 @@ def self.post_count
   @@all.count
 end
 
+def author_name
+  @author.name
+end
+
 end #clsend
