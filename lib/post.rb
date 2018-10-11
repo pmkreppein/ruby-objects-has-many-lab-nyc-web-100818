@@ -11,7 +11,7 @@ def title
   @title
 end
 
-self.all
+def self.all
   @@all
 end
 
