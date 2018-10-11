@@ -12,9 +12,7 @@ def title
 end
 
 
-def self.all
-  @@all
-end
+
 
 
 end #clsend
