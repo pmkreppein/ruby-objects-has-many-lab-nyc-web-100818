@@ -14,4 +14,5 @@ end
 self.all
   @@all
 end
+
 end #clsend
