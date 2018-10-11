@@ -16,4 +16,8 @@ def self.all
   @@all
 end
 
+def post_count
+  @@all.count
+end
+
 end #clsend
