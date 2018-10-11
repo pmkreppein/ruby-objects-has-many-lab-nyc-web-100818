@@ -16,7 +16,7 @@ def self.all
   @@all
 end
 
-def post_count
+def self.post_count
   @@all.count
 end
 
