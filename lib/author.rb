@@ -15,4 +15,8 @@ class Author
     post.author = this
   end
   
+  def post_count
+    @posts.count
+  end
+  
 end #CLSEND
