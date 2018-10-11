@@ -5,6 +5,7 @@ attr_accessor :author
 def initialize(title)
   @title = title
   @@all << self
+  @author = nil
 end
 
 def title
